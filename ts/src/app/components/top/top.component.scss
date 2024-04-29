@@ -1,0 +1,62 @@
+.container{
+  height: 68px;
+  background-color: #FDF1EB;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+
+}
+
+.titulo{
+  padding-left: 32px;
+  padding-top: 5px;
+  h1{
+    font-size: 22px;
+    font-family: 'Roboto';
+    color: #725C5C;
+    font-weight: 400;
+
+  }
+
+  h3{
+    font-size: 14px;
+    font-family: 'Roboto';
+    color: #725C5C;
+    font-weight: 400;
+  }
+}
+
+.btn-idioma{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 150px;
+
+  button{
+    height: 34px;
+    width: 97px;
+    background-color: transparent;
+  }
+}
+
+.login{
+  display: flex;
+  flex-direction: row;
+  padding-left: 22px;
+  align-items: center;
+
+  .texto{
+    p{
+      display: flex;
+      justify-content: flex-end;
+    }
+    padding-right: 15px;
+
+  }
+
+  img{
+    height: 30px;
+    border-radius: 50%;
+  }
+}

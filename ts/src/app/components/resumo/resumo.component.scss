@@ -1,0 +1,52 @@
+.container{
+  max-width: 1058px;
+  width: 100%;
+  border: 1px solid #ECECEC;
+}
+.resumo{
+  background-color: #FDF1EB;
+  border: 1px solid #ECECEC;
+  height: 45px;
+  width: 1058px;
+  display: flex;
+  align-items: center;
+
+  h1{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 15px;
+    color: #4E4E4E;
+  }
+}
+
+.paragrafo{
+  width: 1028px;
+  word-wrap: break-word;
+  margin: 15px;
+  height: auto;
+
+
+  p{
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 14px;
+    color: #5C5C5C;
+    line-height: 22.75px;
+    letter-spacing: 2%;
+  }
+
+  #mais{
+    display: none ;
+  }
+
+  button{
+    border: none;
+    background-color: white;
+    color: orange;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
